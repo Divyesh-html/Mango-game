@@ -15,6 +15,10 @@ class Launcher{
         this.launcher.bodyA=null;
     }
     
+        attach(body){
+        this.sling.bodyA = body;
+    }
+    
 
     display(){
         if(this.launcher.bodyA!=null){
