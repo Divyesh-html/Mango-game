@@ -11,13 +11,16 @@ class Launcher{
         this.pointB = pointB
     }
 
+   
+            attach(body){
+        this.sling.bodyA = body;
+    }
+    
     fly(){
         this.launcher.bodyA=null;
     }
     
-        attach(body){
-        this.sling.bodyA = body;
-    }
+
     
 
     display(){
