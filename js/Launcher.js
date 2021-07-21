@@ -24,7 +24,7 @@ class Launcher{
     
 
     display(){
-        if(this.launcher.bodyA!=null){
+        if(this.launcher.bodyA){
         var pointA = this.launcher.bodyA.position;
         var pointB = this.launcher.pointB;
         strokeWeight(4);
